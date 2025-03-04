@@ -6,7 +6,7 @@
 
 -   This project aims to create a load-balancing solution that can distribute the incoming traffic efficiently while ensuring the system remains responsive and stable. This requires careful management of the requests and implementing strategies to mitigate overload and prevent resource exhaustion.
 
-### unctional Requirements
+### Functional Requirements
 
 -   Handle 50*(10*n) RPS while ensuring at most 10\*n RPS reaches the resources at any time
 -   Distribute requests evenly across the replicated instances of the resource.
