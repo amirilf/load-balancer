@@ -52,6 +52,13 @@
 			<artifactId>spring-rabbit-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- CUTSOM -->
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>onboarding-task-helper</artifactId>
+			<version>0.0.1-DEVELOP</version>
+		</dependency>
 	</dependencies>
 
 	<build>
