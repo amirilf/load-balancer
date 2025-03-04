@@ -1,27 +1,19 @@
 package com.github.amirilf.load_balancer.model;
 
 import java.util.UUID;
-
 import org.example.model.ResourceResponseModel;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class ResourceResponse implements ResourceResponseModel {
-
-    @Override
-    public String getResult() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getResult'");
-    }
-
-    @Override
-    public UUID getTaskId() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getTaskId'");
-    }
-
-    @Override
-    public boolean isSuccessful() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isSuccessful'");
-    }
-
+    private UUID taskId;
+    private String result;
+    private boolean successful;
 }
